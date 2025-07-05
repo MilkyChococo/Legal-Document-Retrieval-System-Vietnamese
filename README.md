@@ -26,7 +26,7 @@ Finding relevant Vietnamese legal provisions is notoriously painful: tens of tho
 | **test.csv**   | Evaluation Q–A       | 17 919  | \~12       |
 
 *Resource subset used in experiments*\
-`corpus_after.csv` 31 053  |  `train_after.csv` 50 000  |  `test_after.csv` 8 274  fileciteturn2file10
+`corpus_after.csv` 31 053  |  `train_after.csv` 50 000  |  `test_after.csv` 8 274 
 
 
 ---
@@ -73,14 +73,12 @@ BERT Encoder      BERT Encoder   (shared params)
 | **MRR\@10**    | 0.66  | 0.46 |
 | **Recall\@10** | 0.86  | 0.72 |
 
-(Logged every 100 steps – see `runs/` TensorBoard.) fileciteturn2file3
-
 **Pre‑trained vs Fine‑tuned**
 
-| Metric     | Pre‑trained | Fine‑tuned |                         |
-| ---------- | ----------- | ---------- | ----------------------- |
-| MRR\@10    | 0.49        | 0.46       |                         |
-| Recall\@10 | 0.73        | 0.72       |  fileciteturn2file15 |
+| Metric     | Pre‑trained | Fine‑tuned |
+| ---------- | ----------- | ---------- |
+| MRR\@10    | 0.49        | 0.46       |
+| Recall\@10 | 0.73        | 0.72       |
 
 Fine‑tuning sharpens domain alignment despite marginal raw‑score drop: fewer noisy hits & better clause‑level relevance.
 
@@ -106,5 +104,5 @@ Fine‑tuning sharpens domain alignment despite marginal raw‑score drop: fewer
 ## 7  Web Application
 
 Welcome screen → chat interface with left/right message bubbles, source badges, copy‑clause button. 
-![Demo Web Application](demo/demo.png)
+![Demo Web Application](demo/screen_law_qa_1.png)
 ---
