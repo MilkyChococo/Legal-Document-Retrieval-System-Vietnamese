@@ -64,6 +64,8 @@ BERT Encoder      BERT Encoder   (shared params)
 - *MultipleNegativesRankingLoss* – efficient contrastive ranking across batch negatives.
 - *MatryoshkaLoss* – hierarchical truncations (64→768 d) teach coarse‑to‑fine semantics fileciteturn2file6.
 
+![Loss Baseline](demo/loss_baseline.png)
+loss_baseline.png
 
 ---
 
