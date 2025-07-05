@@ -1,0 +1,7 @@
+flask
+sentence-transformers
+faiss-cpu
+numpy
+pandas
+pyvi
+underthesea
