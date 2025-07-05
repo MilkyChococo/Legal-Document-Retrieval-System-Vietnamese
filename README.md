@@ -42,7 +42,6 @@ Finding relevant Vietnamese legal provisions is notoriously painful: tens of tho
 7. **Token output** – either string or list depending on downstream module.
    
 ![Processed Text](demo/processed_texts.png)
-process.png
 ---
 
 ## 4  Model Architecture
@@ -65,8 +64,6 @@ BERT Encoder      BERT Encoder   (shared params)
 - *MatryoshkaLoss* – hierarchical truncations (64→768 d) teach coarse‑to‑fine semantics fileciteturn2file6.
 
 ![Loss Baseline](demo/loss_baseline.png)
-loss_baseline.png
-
 ---
 
 ## 5  Training & Evaluation
