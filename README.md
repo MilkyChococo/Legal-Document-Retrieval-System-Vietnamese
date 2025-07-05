@@ -41,7 +41,7 @@ Finding relevant Vietnamese legal provisions is notoriously painful: tens of tho
 6. **Stopword & noise filtering**.
 7. **Token output** – either string or list depending on downstream module.
    
-![Processed Text](demo/process.png)
+![Processed Text](demo/processed_texts.png)
 process.png
 ---
 
