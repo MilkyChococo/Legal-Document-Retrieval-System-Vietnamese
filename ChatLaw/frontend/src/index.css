@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.custom-scrollbar-navbar {
+  scrollbar-color: #b4b4b4 transparent;
+}
+
+.custom-scrollbar-navbar::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar-navbar::-webkit-scrollbar-track {
+  background: #0a0a0a; 
+}
+
+.custom-scrollbar-navbar::-webkit-scrollbar-thumb {
+  background: #2f2f2f; 
+}
+
+.custom-scrollbar-navbar::-webkit-scrollbar-thumb:hover {
+  background: #b4b4b4; 
+}
