@@ -40,8 +40,9 @@ Finding relevant Vietnamese legal provisions is notoriously painful: tens of tho
 5. **Word segmentation** – PyVi.
 6. **Stopword & noise filtering**.
 7. **Token output** – either string or list depending on downstream module.
-
-
+   
+![Processed Text](demo/process.png)
+process.png
 ---
 
 ## 4  Model Architecture
